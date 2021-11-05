@@ -4,3 +4,8 @@ h1 {
     color: lightblue;
     font-family: 'Zen Antique', serif;
 }
+
+.hero {
+    height: 75vh;
+    background: url("../images/jalapeno-pretzel-recipe.jpg");
+}
