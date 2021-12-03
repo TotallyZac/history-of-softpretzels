@@ -78,7 +78,7 @@ h1 {
   font-family: ff-cocon-pro, sans-serif;
   color: #ac5f27;
   font-size: 39px;
-  margin: left;
+  margin-top: 20px;
 }
 
 .pretzel img {
@@ -95,9 +95,9 @@ h1 {
 }
 
 .titles h1 {
-  border-bottom: 2px solid #ac5f27;
-  width: fit-content;
+  border-bottom: 1px solid #ac5f27;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .twist-history {
@@ -119,7 +119,7 @@ h1 {
 }
 
 
-.titles p {
+p {
   font-family: omnes-pro, sans-serif;
 }
 
@@ -177,6 +177,7 @@ body {
 
 .slide .content h1 {
   margin-bottom: 10px;
+  border-bottom: 1px solid #ac5f27;
 }
 
 .slide.current .content {
@@ -244,17 +245,23 @@ body {
 
 .card {
     display: flex;
+    justify-content: center;
     background:white;
-    margin-left: 2rem;
+    margin: 2rem auto;
+    width: 700px;
   }
 
   .card img {
     width: 400px;
     object-fit: cover;
+    padding: 25px;
   }
   
   .card h3 {
     margin-bottom: 2rem;
+    background: #F3CB57;
+    padding: 5px;
+    font-family: omnes-pro, sans-serif;
   }
   
   .card > div {
