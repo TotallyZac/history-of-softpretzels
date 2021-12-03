@@ -58,7 +58,7 @@ nav a {
 }
 
 header {
-  background-image: url("https://assets.codepen.io/5665062/Soft+Pretzel.jpg");
+  background-image: url("images/Soft\ Pretzel.jpg");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -214,37 +214,37 @@ body {
 
 /*Background images*/
 .slide:first-child {
-  background-image: url("https://assets.codepen.io/5665062/cinnamon-sugar-pretzels-01.jpg");
+  background-image: url("images/cinnamonsugarpretzels.jpg");
   background-size: cover;
 }
 
 .slide:nth-child(2) {
-  background-image: url("https://assets.codepen.io/5665062/IMG_2410-2.jpg");
+  background-image: url("images/JalapenoPret.jpg");
   background-size: cover;
 }
 
 .slide:nth-child(3) {
-  background-image: url("https://assets.codepen.io/5665062/Parmesan-Garlic-Soft-Pretzels-square+%281%29.jpg");
+  background-image: url("images/Garlic\ Parm.jpg");
   background-size: cover;
 }
 
 .slide:nth-child(4) {
-  background-image: url("https://assets.codepen.io/5665062/211104-delish-seo-homemade-pretzels-horizontal-0171-eb-1636752622.jpg");
+  background-image: url("images/OriginalPretzel.jpg");
   background-size: cover;
 }
 
 .slide:nth-child(5) {
-  background-image: url("https://assets.codepen.io/5665062/IMG_3261_thumb.jpg");
+  background-image: url("images/PretzelDog.jpg");
 }
 
 .slide:nth-child(6) {
-  background-image: url("https://assets.codepen.io/5665062/Homemade-Soft-Pretzel-Bites-5-scaled.jpg");
+  background-image: url("images/PretzelBites.jpg");
   background-size: cover;
 }
 
 .card {
     display: flex;
-    background: #DEC8F7;
+    background:white;
     margin-left: 2rem;
   }
 
