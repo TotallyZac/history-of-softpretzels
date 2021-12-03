@@ -1,11 +1,280 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+@import url("https://use.typekit.net/xbs4ntm.css");
+
+@import url("https://use.typekit.net/kuy1lwq.css");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: omnes-pro, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  color: #ac5f27;
+  background-color: #fefbd1;
+}
+
+.logo {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  font-family: ff-cocon-pro, sans-serif;
+  color: #ac5f27;
+  font-size: 26px;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 70px;
+}
+
+.navigation {
+  height: 70px;
+  background-color: #fefbd1;
+  padding: 0 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  font-family: omnes-pro, sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav a {
+  color: #ac5f27;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-size: 18px;
+  border-right: 1.5px solid black;
+}
+
+header {
+  background-image: url("https://assets.codepen.io/5665062/Soft+Pretzel.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 30%;
+  left: 550px;
+}
 
 h1 {
-    color: lightblue;
-    font-family: 'Zen Antique', serif;
+  text-align: center;
+  font-family: ff-cocon-pro, sans-serif;
+  color: #ac5f27;
+  font-size: 39px;
+  margin: left;
 }
 
-.hero {
-    height: 75vh;
-    background: url("../images/jalapeno-pretzel-recipe.jpg");
+.pretzel img {
+  width: 330px;
+  height: 320px;
+  object-fit: cover;
+  object-position: right;
+  padding: 50px;
+  /*margin-left: 200px;*/
 }
+
+.titles p {
+  margin-bottom: 15px;
+}
+
+.titles h1 {
+  border-bottom: 2px solid #ac5f27;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
+.twist-history {
+  background: #fff; 
+}
+
+.sect-1 {
+  margin: 0px auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.pretzel img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+
+.titles p {
+  font-family: omnes-pro, sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Kaisei Tokumin", serif;
+  color: #ac5f27;
+  line-height: 1.6;
+}
+
+.section-2 {
+  background: #fcf8aa;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.slide.current {
+  opacity: 1;
+}
+
+/* text of the slide*/
+
+.slide .content {
+  position: absolute;
+  bottom: 70px;
+  left: -600px;
+  width: 600px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+  padding: 35px;
+  opacity: 0;
+}
+
+.slide .content h1 {
+  margin-bottom: 10px;
+}
+
+.slide.current .content {
+  opacity: 1;
+  transform: translateX(600px);
+  transition: all 0.7s ease-in-out 0.3s;
+}
+
+/*buttons style*/
+.buttons button#next {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+}
+
+.buttons button#prev {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+}
+
+.buttons button {
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 13px 15px;
+  border-radius: 50%;
+  outline: none;
+}
+
+.buttons button:hover {
+  background: #f3cb57;
+}
+
+/*Background images*/
+.slide:first-child {
+  background-image: url("https://assets.codepen.io/5665062/cinnamon-sugar-pretzels-01.jpg");
+  background-size: cover;
+}
+
+.slide:nth-child(2) {
+  background-image: url("https://assets.codepen.io/5665062/IMG_2410-2.jpg");
+  background-size: cover;
+}
+
+.slide:nth-child(3) {
+  background-image: url("https://assets.codepen.io/5665062/Parmesan-Garlic-Soft-Pretzels-square+%281%29.jpg");
+  background-size: cover;
+}
+
+.slide:nth-child(4) {
+  background-image: url("https://assets.codepen.io/5665062/211104-delish-seo-homemade-pretzels-horizontal-0171-eb-1636752622.jpg");
+  background-size: cover;
+}
+
+.slide:nth-child(5) {
+  background-image: url("https://assets.codepen.io/5665062/IMG_3261_thumb.jpg");
+}
+
+.slide:nth-child(6) {
+  background-image: url("https://assets.codepen.io/5665062/Homemade-Soft-Pretzel-Bites-5-scaled.jpg");
+  background-size: cover;
+}
+
+.card {
+    display: flex;
+    background: #DEC8F7;
+    margin-left: 2rem;
+  }
+
+  .card img {
+    width: 400px;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    margin-bottom: 2rem;
+  }
+  
+  .card > div {
+    padding:  2rem
+  }
+  
+  .card:nth-child(even) img {
+    order: 2;
+  }
+  
+  .card a {
+    display: inline-block;
+    background: black;
+    color:white;
+    padding: .6rem 1.5rem;
+    margin-top: 2rem;
+    border-radius: 50px;
+  }
+  
+  .card a:hover {
+    opacity: .5;
+  }
+  
