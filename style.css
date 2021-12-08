@@ -59,18 +59,35 @@ nav a {
 
 header {
   background-image: url("images/Soft\ Pretzel.jpg");
-  height: 100vh;
+  height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
+  display: flex;
   width: cover;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .hero-text {
-  position: absolute;
-  top: 30%;
-  left: 550px;
+  text-align: center;
+  color: #FEFBD1;
+  background-color: rgba(172, 95, 39, .7);
+  padding: 5px 25px;
+
+}
+
+.hero-text h1{
+  color: #FEFBD1;
+  font-size: 4em;
+  margin: 0;
+}
+
+.hero-text h2 {
+  font-family: ff-cocon-pro, sans-serif;
+  margin-bottom: -30px;
+  font-size: 2em;
 }
 
 h1 {
@@ -139,6 +156,10 @@ body {
 
 .section-2 {
   background: #fcf8aa;
+}
+
+.slide-buttons {
+  position: relative;
 }
 
 .slider {
