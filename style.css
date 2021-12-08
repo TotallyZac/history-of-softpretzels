@@ -305,4 +305,65 @@ body {
   .card a:hover {
     opacity: .5;
   }
+
+  .title {
+    text-align: center;
+    color: rgb(224, 161, 250);
+  }
+  
+  .container {
+    width: 610px;
+    margin: 0 auto;
+  }
+  
+  .overlay-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+  }
+  
+  .text {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    transition: translate(-50%, -50%);
+  }
+  
+  
+  .overlay {
+    position: absolute;
+    transition: all 300ms ease;
+    background: rgba(0, 177, 186, 0.6);
+    opacity: 0;
+  }
+  
+  .overlay-container:hover .overlay {
+    opacity: 1;
+  }
+  
+  
+  .overlay-left {
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+  }
+  
+  .overlay-right {
+    height: 100%;
+    width: 0;
+    top: 0;
+    right: 0;
+  }
+  
   
