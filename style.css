@@ -397,3 +397,16 @@ html {
   object-position: center;
 }
   
+footer {
+  background:#AB5235;
+  height: 125px;
+  width:500px;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+footer p {
+  color: white;
+}
