@@ -286,7 +286,7 @@ body {
   }
   
   .card > div {
-    padding:  2rem
+    padding:  2rem;
   }
   
   .card:nth-child(even) img {
