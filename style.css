@@ -237,32 +237,32 @@ body {
 /*Background images*/
 .slide:first-child {
   background-image: url("images/cinnamonsugarpretzels.jpg");
-  background-size: fit;
+  background-size: cover;
 }
 
 .slide:nth-child(2) {
-  background-image: url("images/JalapenoPret.jpg");
-  background-size: fit;
+  background-image: url("images/JalapenoChedd.jpeg");
+  background-size: cover;
 }
 
 .slide:nth-child(3) {
   background-image: url("images/Garlic\ Parm.jpg");
-  background-size: fit;
+  background-size: cover;
 }
 
 .slide:nth-child(4) {
   background-image: url("images/OriginalPretzel.jpg");
-  background-size: fit;
+  background-size: cover;
 }
 
 .slide:nth-child(5) {
-  background-image: url("images/PretzelDog.jpg");
-  background-size: fit; 
+  background-image: url("images/PretzelDogs.jpg");
+  background-size: cover; 
 }
 
 .slide:nth-child(6) {
   background-image: url("images/PretzelBites.jpg");
-  background-size: fit;
+  background-size: cover;
 }
 
 .card {
@@ -315,6 +315,10 @@ html {
 .container {
   width: 610px;
   margin: 0 auto;
+}
+
+.container h1{
+  padding-bottom: 25px;
 }
 
 .overlay-container {
@@ -387,5 +391,9 @@ html {
   height: 100%;
 }
 
-
+.overlay-container img{
+  object-fit: cover;
+  width:100%;
+  object-position: center;
+}
   
