@@ -313,7 +313,6 @@ html {
 }
 
 .container {
-  width: 610px;
   margin: 0 auto;
 }
 
@@ -326,9 +325,13 @@ html {
   width: 200px;
   height: 200px;
   overflow: hidden;
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
-
+.overlay-wrapper{
+  display: flex;
+  justify-content: center;
+}
 .image {
   position:cover;
   width: 100%;
@@ -400,7 +403,6 @@ html {
 footer {
   background:#AB5235;
   height: 125px;
-  width:500px;
   text-align: left;
   padding-top: 25px;
   padding-bottom: 30px;
